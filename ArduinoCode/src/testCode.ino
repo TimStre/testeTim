@@ -6,8 +6,8 @@ Servo top;
 
 
 int pos_b = 0;
-const int servoMin_b = 10;
-const int servoMax_b = 140;
+const int servoMin_b = 12;
+const int servoMax_b = 150;
 const int servoPin_b = 9;
 const int servoDelay_b = 3;
 
@@ -39,7 +39,7 @@ void loop()
     delay(servoDelay_b);
   }
 
-  delay(1000);
+
 
   for (pos_t = servoMin_t; pos_t < servoMax_t; pos_t += 1)
   {
